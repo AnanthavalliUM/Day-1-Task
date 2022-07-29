@@ -1,0 +1,50 @@
+HTTP 1.1:  
+
+  The first version of HTTP  was created in 1997.
+  HTTP /1.1 loads a single request for every TCP connection.
+  HTTP/1.1 loads resources one after the other, so if one resource cannot be loaded, it blocks all the other resources behind it.
+  HTTP/1.1 allows a server to serves the content to a client device if the client asks for it .
+
+                
+HTTP 2:
+
+ HTTP/2 was introduced in 2015.
+ HTTP/2 avoids network delay by using multiplexing.
+ HTTP/2 is able to use a single TCP connection to send multiple streams of data at once so that no one resource blocks any other resource.          
+ HTTP/2  allows a server to “push” content to a client before the client asks 
+ 
+Objects and its internal representation in Javascript
+
+Object: 
+
+    Objects are important data types in javascript. Objects differ from primitive data types (i.e. number, string, boolean, etc.). 
+    Primitive data types contain only one value, but Objects can hold many values in the form of Key: value pair. 
+    These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+
+Syntax:
+
+     The syntax to describe a object is
+ 
+       var <object-name> = {key1: value1, key2: value2,... keyN: valueN};
+
+Let us look at an example of a JavaScript Object :
+
+let institution = {
+Name : " Guvi geek network private limited ",
+Location : " Chennai ",
+Courses : " Full stack” , “Data science”, “Cyber security ",
+Languages : " English” , “Tamil”,” Telugu”, “Malayalam”,” Hindi ";
+}
+
+
+In the above example 
+"name", "location", "courses", & "languages" are all “keys” and " Guvi geek network private limited ", " Chennai "," full stack , data science, cyber security ," English Tamil, Telugu, Malayalam, Hindi "are values of these keys respectively. Each of these keys is referred to as properties of the object.
+
+
+
+                     
+
+
+
+
+
